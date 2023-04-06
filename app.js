@@ -7,15 +7,7 @@ const gmail = require('./routes/gmail');
 
 
 const corsOptions = {
-	origin: [
-		'https://lambent-maamoul-6d6af3.netlify.app/',
-		'http://localhost:3000',
-		'http://localhost:3001',
-		'http://localhost:3002',
-        'https://superb-bienenstitch-592655.netlify.app',
-        'https://chipper-truffle-bb4611.netlify.app',
-		undefined,
-	],
+	origin: '*',
 	optionSuccessStatus: 200,
 };
 
